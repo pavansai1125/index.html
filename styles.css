@@ -634,16 +634,19 @@ img {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
+  align-items: start;
 }
 
 .project-card {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  padding: 2rem;
+  padding: 1.25rem 1.5rem;
   transition: border-color var(--transition), box-shadow var(--transition), transform var(--transition);
   position: relative;
   overflow: hidden;
+  max-width: 450px;
+  width: 100%;
 }
 
 .project-card::after {
