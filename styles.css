@@ -381,7 +381,7 @@ img {
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   padding: 0.75rem;
-  max-width: 300px;
+  max-width: 500px;
   box-shadow: 0 24px 48px rgba(0, 0, 0, 0.4);
   position: relative;
   overflow: hidden;
@@ -395,7 +395,7 @@ img {
 .hero-card::before {
   content: "";
   position: absolute;
-  inset: -70%;
+  inset: -50%;
   background: conic-gradient(from 0deg, transparent, var(--accent-dim), transparent 30%);
   animation: cardSpin 6s linear infinite;
   pointer-events: none;
@@ -417,7 +417,7 @@ img {
 .hero-photo {
   position: relative;
   z-index: 1;
-  width: 125%;
+  width: 100%;
   aspect-ratio: 1;
   object-fit: cover;
   border-radius: calc(var(--radius-lg) - 4px);
