@@ -420,7 +420,7 @@ img {
   width: 100%;
   aspect-ratio: 1;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 60% 40% 60% 40% / 50% 60% 40% 50%;
 }
 
 /* ===== Scroll indicator ===== */
