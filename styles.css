@@ -417,10 +417,10 @@ img {
 .hero-photo {
   position: relative;
   z-index: 1;
-  width: 300%;
+  width: 100%;
   aspect-ratio: 1;
   object-fit: cover;
-  border-radius: calc(var(--radius-lg) - 4px);
+  border-radius: 60% 40% 60% / 50% 60% 40% 50%;
 }
 
 /* ===== Scroll indicator ===== */
